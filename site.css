@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    position: relative; /* Adicionando posicionamento relativo ao body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex; /* Adicionando Flexbox */
+    flex-direction: column; /* Organizando os elementos verticalmente */
+    align-items: center; /* Centralizando os elementos horizontalmente */
+}
+
+header h1 {
+    margin: 0;
+    color: #008000; /* Verde */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Adicionando Flexbox */
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffd700;
+}
+
+section {
+    padding: 20px; /* Reduzindo o espaçamento */
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 24px; /* Reduzindo o tamanho do título */
+    margin-bottom: 10px; /* Reduzindo o espaçamento */
+}
+
+section p {
+    font-size: 16px; /* Reduzindo o tamanho do texto */
+    line-height: 1.5;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: absolute; /* Adicionando posicionamento absoluto */
+    bottom: 0; /* Posicionando no rodapé */
+}
+
+footer p {
+    margin: 0;
+    color: #fff; /* Branco */
+    font-weight: bold; /* Negrito */
+}

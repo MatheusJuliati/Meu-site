@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page - Personal Trainer</title>
+    <link rel="stylesheet" href="site.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #ffffff, #c0c0c0);
+            /* Modifique as cores conforme desejado */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        header h1 {
+            margin: 0;
+            color: #008000; /* Verde */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffd700;
+        }
+
+        section {
+            padding: 20px; /* Reduzindo o espaçamento */
+            width: 100%;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 24px; /* Reduzindo o tamanho do título */
+            margin-bottom: 10px; /* Reduzindo o espaçamento */
+        }
+
+        section p {
+            font-size: 16px; /* Reduzindo o tamanho do texto */
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            width: 100%;
+            position: absolute; /* Adicionando posicionamento absoluto */
+            bottom: 0; /* Posicionando no rodapé */
+        }
+
+        footer p {
+            margin: 0;
+            color: #fff; /* Branco */
+            font-weight: bold; /* Negrito */
+        }
+
+        /* Técnica de layout responsivo */
+        @media screen and (max-width: 768px) {
+            header {
+                padding: 10px;
+            }
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+            section {
+                padding: 10px;
+            }
+            section h2 {
+                font-size: 20px;
+            }
+            section p {
+                font-size: 14px;
+            }
+            footer {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Seja Bem-vindo ao Programa de Treinamento Personalizado</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#vantagens">Vantagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre"> 
+        <h2>Sobre</h2>
+        Me chamo Matheus, formado em Educação Física<br>
+        Tenho 34 anos e 10 anos de experiência na área.<br>    
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        Acompanhamento<br>
+        Treinos<br>
+        Dietas<br>
+        Mentorias<br>
+        Bioimpedância<br>
+    </section>
+
+    <section id="vantagens">
+        <h2>Vantagens</h2>
+        Acompanhamento 24 horas por dia.<br>
+        Contato Pessoal com o Personal.<br>
+        Compromisso com sua evolução.<br>
+        Resultados não apareceram em até 3 meses?<br>
+        Devolvo seu dinheiro.
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        6399999-9999 - Ciclano<br>
+        Endereço: Rua dos Vargas<br>
+        Alameda 25 Lote 10
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Programa de Treinamento Personalizado. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
